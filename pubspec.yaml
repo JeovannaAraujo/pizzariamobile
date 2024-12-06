@@ -1,0 +1,46 @@
+name: pizzaria_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  dio: ^5.2.0
+  flutter_masked_text2: ^0.9.0
+  flutter_svg: ^2.0.15
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.1
+  mask_text_input_formatter: ^2.0.0
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Adicionando a dependência de assets
+  assets:
+    - assets/background.png
+    - assets/logo.png
+    - assets/pizza_pequena.png
+    - assets/pizza_peque.png
+    - assets/pizza_media.png
+    - assets/pizza_grande.png
+    - assets/pizza_gigante.png
+    - assets/pizza_gg.png
+    - assets/coca_cola_2l.png
+    - assets/coca_cola_lata.png
+    - assets/mineiro_2l.png
+    - assets/agua_com_gas.png
+    - assets/suco_laranja.png
+    
